@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    align-items: center;
+    border: 1px solid plum;
+    border-radius: 15px;
+}

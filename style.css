@@ -68,3 +68,37 @@ li a {
 .navButton img {
     margin-left: 4px;
 }
+
+.hamburger {
+    display: none;
+}
+
+
+
+
+
+
+/* responsive code */
+
+@media screen and (max-width:480px) {
+
+    .menu,
+    .navButton {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger img {
+        width: 24px;
+        height: 24px;
+        margin-right:20px;
+    }
+
+    .logo-navbar{
+        margin-left: 20px;
+    }
+
+}

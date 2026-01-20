@@ -75,6 +75,120 @@ li a {
 
 
 
+/* hero */
+
+
+.hero {
+    background-image: url(./assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    height: 760px;
+    border: 1px solid rgba(26, 11, 46, 1);;
+    margin: 0 auto;
+}
+
+.hero .heroMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 550px;
+    height: 558px;
+    margin: 101px auto;
+
+}
+
+.hero-circle {
+    position: relative;
+    border-radius: 50%;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)));
+}
+
+.microphone {
+    position: absolute;
+    top: 270px;
+    height: 200px;
+}
+
+.new {
+    font-size: 18px;
+    font-weight: 600;
+    width: 75px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    background-color: #00FF88;
+    position: relative;
+    left: 140px;
+    top: -326px;
+}
+
+
+h1 {
+    width: 550px;
+    height: 73px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.heroMain p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    padding-top: 8px;
+}
+
+.button {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 8px;
+}
+
+.button1 {
+    width: 201px;
+    height: 44px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)));
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 10000px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button2 {
+    width: 147px;
+    height: 44px;
+    color: #00FF88;
+    padding: 12px 20px;
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    background-color: transparent;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 10000px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -94,11 +208,13 @@ li a {
     .hamburger img {
         width: 24px;
         height: 24px;
-        margin-right:20px;
+        margin-right: 20px;
     }
 
-    .logo-navbar{
+    .logo-navbar {
         margin-left: 20px;
     }
+
+    
 
 }

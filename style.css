@@ -85,7 +85,6 @@ li a {
     max-width: 1600px;
     height: 760px;
     border: 1px solid rgba(26, 11, 46, 1);
-    ;
     margin: 0 auto;
 }
 
@@ -190,13 +189,15 @@ h1 {
     max-width: 1600px;
     height: 646px;
     border: 1px solid rgba(26, 11, 46, 1);
+    /* border: 1px solid red; */
     background: rgba(26, 11, 46, 1);
+    margin: 0 auto;
 }
 
 .AboutthePodcastMain {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     max-width: 1200px;
-    margin: 50px auto;
+    margin: 50px auto 120px;
 
 }
 

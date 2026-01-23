@@ -271,10 +271,10 @@ h1 {
 
 .WhyChooseTechWaveMain {
     width: 1200px;
-    /* border: 1px solid yellow; */
-    height: auto;
+    /* border: 1px solid red; */
+    height: 898px;
     margin: 120px auto;
-    height: auto;
+    /* height: auto; */
 }
 
 .WhyChooseTechWaveMain h1 {
@@ -373,14 +373,82 @@ h1 {
     font-weight: 200;
 }
 
+.FeaturedEpisodesANdMeettheHost {
 
+    max-width: 1600px;
+    height: 1276px;
+    background: rgba(26, 11, 46, 1);
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
 
+.FeaturedEpisodesANdMeettheHostMain {
+    margin: 0px auto;
+    border: 1px solid green;
+    height: 1036px;
+}
 
+.FeaturedEpisodes {
+    width: 1200px;
+    height: 538px;
+    border: 1px solid red;
+}
 
+.FeaturedEpisodes h1 {
+    color: #FFFFFF;
+    margin: 0px auto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
 
+.card {
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
 
+.card .cardDiv {
+    /* width: 380px; */
+    background: rgba(37, 13, 68, 1);
+    height: 423px;
+    /* border: 1px solid red; */
+    border-radius: 24px;
+}
 
+.card div iframe {
+    width: 379px;
+    height: 213px;
+    border-radius: 24px 24px 0px 0px;
+}
 
+.cardDiv h3 {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.cardDiv p {
+    padding-top: 12px;
+    opacity: 0.6;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 24px;
+}
+
+.time {
+    padding-left: 24px;
+    display: flex;
+    gap: 6px;
+    margin-top: 12px;
+    color: #00FF88;
+}
 
 
 
